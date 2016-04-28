@@ -1,0 +1,136 @@
+@charset "utf-8";
+/* CSS Document */
+@import url("reset.css");
+body
+{
+	background:url(../imagenes/background.png);
+}
+#contenedor
+{
+	width:960px;
+	min-height:auto;
+	margin:0 auto 0 auto; /*TOP, RIGHT, BOTTOM, LEFT*/
+}
+.barra_superior
+{
+	width:960px;
+	min-height:30px;
+	margin:0 auto 0 auto; /*TOP, RIGHT, BOTTOM, LEFT*/
+	float:left;	
+	background: #d9d9d9;
+}
+.contenedor_logo
+{
+	width:960px;
+	min-height:30px;
+	margin:0 auto 0 auto; /*TOP, RIGHT, BOTTOM, LEFT*/
+	float:left;
+	background: #d9d9d9;
+}
+.logo
+{
+	width:960px;
+	min-height:30px;
+	margin-left: 0 0 0 0;
+	float:left;	
+}
+.menu {
+	top: -27px;
+	position: absolute;
+	left: 0px;
+	right: 0;
+	margin: 260px auto;
+	max-width: 960px;
+	width: 90%;
+}
+ 
+.menu ul {
+	list-style:none;
+}
+ 
+.menu > ul {
+	display:table;
+	width:100%;
+	background:#000;
+	position:relative;
+}
+ 
+.menu > ul li {
+	display:table-cell;
+}
+ 
+.menu > ul > li:hover > ul {
+	display:block;
+	height:100%;
+}
+ 
+.menu > ul > li > ul {
+	display:block;
+	position:absolute;
+	background:#000;
+	left:0;
+	right:0;
+	overflow:hidden;
+	height:0%;
+	-webkit-transition: all .3s ease;
+	-moz-transition: all .3s ease;
+	-ms-transition: all .3s ease;
+	-o-transition: all .3s ease;
+	transition: all .3s ease;
+}
+ 
+.menu > ul li a {
+	color:#fff;
+	display:block;
+	line-height:20px;
+	padding:20px;
+	position: relative;
+	text-align:center;
+	text-decoration:none;
+	-webkit-transition: all .3s ease;
+	-moz-transition: all .3s ease;
+	-ms-transition: all .3s ease;
+	-o-transition: all .3s ease;
+	transition: all .3s ease;
+}
+ 
+.menu > ul > li > ul > li a:hover {
+	background:#5da5a2;
+}
+.slide_likebox 
+{
+	float: right;
+	width: 288px;
+	height: 345px;
+	background: url(https://lh6.googleusercontent.com/-VW_GzzYnZJ0/TkiZQFcBc2I/AAAAAAAABmg/fa9_qWV8Cu4/fb_bg.png) no-repeat !important;
+	display: block;
+	right: -250px;
+	padding: 0;
+	position: fixed;
+	top: 130px;
+	z-index: 5000;
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+}
+
+div.likeboxwrap 
+{
+	margin-top: 2px;
+	margin-left: -5px;
+	width: 238px;
+	height: 325px;
+	background-color: #fff;
+	overflow: hidden;
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+}
+
+#plugin-face
+{
+	border:none; 
+	overflow:hidden; 
+	width:240px; 
+	height:320px;
+}
